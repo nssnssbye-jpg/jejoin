@@ -1,0 +1,10 @@
+# Use owner/repository for existing repositories. Repositories using GitHub's
+# immutable OIDC subjects should use the owner@id/repository@id value shown in
+# their GitHub OIDC token claims.
+github_repository_subject = "OWNER/REPOSITORY"
+
+# Set this only when the AWS account already has the GitHub Actions provider.
+# github_oidc_provider_arn = "arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com"
+
+# Optionally constrain all generated roles with an account permissions boundary.
+# github_permissions_boundary_arn = "arn:aws:iam::123456789012:policy/Boundary"
