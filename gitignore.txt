@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Terraform working data and local state
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
